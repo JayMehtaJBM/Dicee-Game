@@ -1,1 +1,1 @@
-# The-Dicee-Game---by-Jay-Mehta
+# The-Dicee-Game-by-Jay-Mehta
