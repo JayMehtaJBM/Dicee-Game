@@ -15,9 +15,13 @@
   font-size: 1rem;
 }
 
-body {
+html {
   background: rgb(71, 39, 39);
   background: linear-gradient(25deg, rgba(71, 39, 39, 1) 13%, rgba(89, 85, 218, 1) 51%, rgba(79, 61, 61, 1) 91%);
+}
+
+body {
+
   text-align: center;
   align-items: center;
 
