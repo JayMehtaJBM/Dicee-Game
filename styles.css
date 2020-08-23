@@ -19,6 +19,8 @@ body {
   background: rgb(71, 39, 39);
   background: linear-gradient(25deg, rgba(71, 39, 39, 1) 13%, rgba(89, 85, 218, 1) 51%, rgba(79, 61, 61, 1) 91%);
   text-align: center;
+  align-items: center;
+
 }
 
 h1 {
@@ -43,6 +45,7 @@ p {
   color: red;
   font-family: 'Dancing Script', cursive;
   text-shadow: 0 0 20px red;
+
 }
 
 hr {
@@ -64,7 +67,7 @@ img {
 }
 
 footer {
-  margin-top: 5%;
+  padding-top: 20px;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
@@ -144,4 +147,14 @@ a:hover {
   background-image: -o-linear-gradient(top, #ffff36, #472727);
   background-image: linear-gradient(to bottom, #ffff36, #472727);
   text-decoration: none;
+}
+
+@media screen ( max-width : 1200px ) {
+  body {
+    height: 100vh;
+  }
+
+  h1 {
+    margin: 15px;
+  }
 }
